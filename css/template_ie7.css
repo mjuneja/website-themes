@@ -1,0 +1,12 @@
+/* font tweaking for optima/lucida font */
+#ff-optima h1,#ff-optima h2,#ff-optima h3,#ff-optima h4,#ff-optima h5,#ff-optima h6, #ff-lucida h1,#ff-lucida h2,#ff-lucida h3,#ff-lucida h4,#ff-lucida h5,#ff-lucida h6 {letter-spacing: -0.07em;}
+body#ff-optima, body#ff-lucida {letter-spacing: -0.03em;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 12px;}
+#horiz-menu ul li {z-index: 100;}
+#sub-menu {padding-top:5px;}
+#bottom-menu {zoom: 1;}
+.menu span {cursor:pointer;}
+#horiz-menu { position: relative; z-index: 50;}
+#news-rotator .image {left: 0;}
+.main-column-header2, ul.menu ul, #sub-bar, #sub-menu, #horiz-menu, #horiz-menu2, #mainmodules {zoom: 1;}
+#sl_vert #sl_submitbutton input.button {padding: 0 6px;}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>rt_perihelion_j15</name>
+    <version>1.5.0</version>
+    <creationDate>07/30/08</creationDate>
+    <author>RocketTheme</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2006-2008 - RocketTheme.com</copyright>
+    <license>Proprietary - RTTC Club members only</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Perihelion</h1>
+
+			<img src="../templates/rt_perihelion_j15/template_thumbnail.png" align="left" hspace="10" />Perihelion is the new August 2008 template from RocketTheme. It is not free or public.  This template is for members of the RocketTheme Joomla Template Club only.  For installation help check out the 'Perihelion' Overview Page on the <a href="http://www.rockettheme.com/blogcategory/Template_Club/">RocketTheme Template Club</a> home page.
+
+			<h3>Changelog</h3>
+
+			<b>1.5.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    	</description>
+		<files>
+			<filename>index.php</filename>
+			<filename>params.ini</filename>
+			<filename>rt_styleloader.php</filename>
+			<filename>rt_styleswitcher.php</filename>
+			<filename>rt_utils.php</filename>
+			<filename>rt_head_includes.php</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+			<folder>html/</folder>
+			<folder>css/</folder>
+			<folder>images/</folder>
+			<folder>js/</folder>
+		</files>
+		<positions>
+			<position>banner</position>
+			<position>icon</position>
+			<position>top</position>
+			<position>search</position>
+			<position>toolbar</position>
+			<position>header</position>
+			<position>header2</position>
+			<position>advert1</position>
+			<position>advert2</position>
+			<position>inset</position>
+			<position>left</position>
+			<position>left2</position>
+			<position>left3</position>
+			<position>right</position>
+			<position>right2</position>
+			<position>right3</position>
+			<position>newsflash</position>
+			<position>user1</position>
+			<position>user2</position>
+			<position>user3</position>
+			<position>user4</position>
+			<position>user5</position>
+			<position>user6</position>
+			<position>user7</position>
+			<position>user8</position>
+			<position>user9</position>
+			<position>user10</position>
+			<position>user11</position>
+			<position>user12</position>
+			<position>bottom</position>
+			<position>footer</position>
+			<position>breadcrumbs</position>
+			<position>debug</position>
+		</positions>
+		<params>
+			<param name="defaultStyle" type="list" default="style" label="Default Style" description="Default Color Style">
+				<option value="style1">Style1</option>
+				<option value="style2">Style2</option>
+				<option value="style3">Style3</option>
+				<option value="style4">Style4</option>
+				<option value="style5">Style5</option>
+			</param>
+			<param name="enableIe6warn" type="radio" default="1" label="Enable IE6 Warning" description="Enable/Disable IE6 Warning">
+				<option value="1">Enabled</option>
+				<option value="0">Disabled</option>
+			</param>
+			<param name="fontFamily" type="list" default="default" label="Font Family" description="Choose a Font Family">
+				<option value="default">Default</option>
+				<option value="geneva">Geneva</option>
+				<option value="optima">Optima</option>
+				<option value="helvetica">Helvetica</option>
+				<option value="trebuchet">Trebuchet</option>
+				<option value="lucida">Lucida</option>
+				<option value="georgia">Georgia</option>
+				<option value="palatino">Palatino</option>
+			</param>
+			<param name="templateWidth" type="text" default="962" label="Template Width" description="Width in px for Fixed Template Width Style" />
+			<param name="leftcolumnWidth" type="text" default="250" label="Left Sidecolumn Width" description="with in px" />
+			<param name="rightcolumnWidth" type="text" default="250" label="Right Sidecolumn Width" description="with in px" />
+			<param name="insetWidth" type="text" default="200" label="Inset Width" description="with in px" />
+			<param name="splitmenuCol" type="list" default="rightcol" label="Splitmenu Submenu Side" description="leftcol or rightcol">
+				<option value="leftcol">Left Column</option>
+				<option value="rightcol">Right Column</option>
+			</param>
+			<param name="defaultFont" type="list" default="default" label="Font Size" description="Font size variation to use">
+				<option value="smaller">Smaller</option>
+				<option value="default">Default</option>
+				<option value="larger">Larger</option>
+			</param>
+			<param name="showBreadcrumbs" type="radio" default="0" label="Show Breadcrumbs" description="Show/Hide the Breadcrumbs">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="showLogo" type="radio" default="1" label="Show Logo" description="Show Logo or Hide Logo and convert to Module Position">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="showCopyright" type="radio" default="1" label="Show Copyright" description="Show Copyright and RocketTheme Logo or Hide and convert to Module Position">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="showFrontpageContent" type="radio" default="0" label="Show Frontpage Content" description="Show or Hide Frontpage component content area">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="menuType" type="list" default="moomenu" label="Menu Type" description="Type of menu for main navigation">
+				<option value="moomenu">MooMenu</option>
+				<option value="suckerfish">Suckerfish</option>
+				<option value="splitmenu">SplitMenu</option>
+				<option value="module">Toolbar Module Position</option>
+			</param>
+			<param name="menuName" type="text" default="mainmenu" label="Menu Name" description="Name of Joomla! menu for the main navigation" />
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="moo_bgiframe" type="radio" default="0" label="MooMenu bgIFrame" description="Only turn on if you are having problems with IE and z-index. This feature is experimental.">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="moo_delay" type="text" default="500" label="MooMenu Delay" description="This is the how long (ms) you can mouse off the menu before it vanishes." />
+			<param name="moo_duration" type="text" default="600" label="MooMenu Duration" description="the time in ms the animation will run for." />
+			<param name="moo_fps" type="text" default="200" label="MooMenu FPS" description="speed of the animation - leave at 100 for best results." />
+			<param name="moo_transition" type="list" default="Sine.easeOut" label="MooMenu Transition" description="any of the available MooTools transitions.">
+				<option value="linear">linear</option>
+				<option value="Quad.easeOut">Quad.easeOut</option>
+				<option value="Quad.easeIn">Quad.easeIn</option>
+				<option value="Quad.easeInOut">Quad.easeInOut</option>
+				<option value="Cubic.easeOut">Cubic.easeOut</option>
+				<option value="Cubic.easeIn">Cubic.easeIn</option>
+				<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+				<option value="Quart.easeOut">Quart.easeOut</option>
+				<option value="Quart.easeIn">Quart.easeIn</option>
+				<option value="Quart.easeInOut">Quart.easeInOut</option>
+				<option value="Quint.easeOut">Quint.easeOut</option>
+				<option value="Quint.easeIn">Quint.easeIn</option>
+				<option value="Quint.easeInOut">Quint.easeInOut</option>
+				<option value="Expo.easeOut">Expo.easeOut</option>
+				<option value="Expo.easeIn">Expo.easeIn</option>
+				<option value="Expo.easeInOut">Expo.easeInOut</option>
+				<option value="Circ.easeOut">Circ.easeOut</option>
+				<option value="Circ.easeIn">Circ.easeIn</option>
+				<option value="Circ.easeInOut">Circ.easeInOut</option>
+				<option value="Sine.easeOut">Sine.easeOut</option>
+				<option value="Sine.easeIn">Sine.easeIn</option>
+				<option value="Sine.easeInOut">Sine.easeInOut</option>
+				<option value="Back.easeOut">Back.easeOut</option>
+				<option value="Back.easeIn">Back.easeIn</option>
+				<option value="Back.easeInOut">Back.easeInOut</option>
+				<option value="Bounce.easeOut">Bounce.easeOut</option>
+				<option value="Bounce.easeIn">Bounce.easeIn</option>
+				<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+				<option value="Elastic.easeOut">Elastic.easeOut</option>
+				<option value="Elastic.easeIn">Elastic.easeIn</option>
+				<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+			</param>
+	    </params>
+	</install>

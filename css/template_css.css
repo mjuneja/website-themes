@@ -1,0 +1,796 @@
+/* @group Core Elements */
+
+html {height: 100%;margin-bottom: 1px;}
+body {margin: 0;font-family: Arial;font-size: 80%;line-height: 135%;}
+#page-bg {padding-top: 4px;}
+
+/* Font family information */
+
+body#ff-default, body#ff-default td {font-family: Helvetica, Arial, FreeSans, sans-serif;}
+body#ff-default #showcase h1 {font-family: Georgia, sans-serif;font-size: 220%;letter-spacing: -1px;}
+body#ff-default #bottom-menu #mainlevel-bottom a, body#ff-default #bottom-menu #mainlevel-bottom a#active_menu.mainlevel {font-family: Georgia, sans-serif;}
+body#ff-optima, #ff-optima td {font-family: Optima, Lucida, 'MgOpen Cosmetica', 'Lucida Sans Unicode', sans-serif;}
+body#ff-geneva, #ff-geneva td {font-family:  Geneva, Tahoma, "Nimbus Sans L", sans-serif;}
+body#ff-helvetica, #ff-helvetica td {font-family: Helvetica, Arial, FreeSans, sans-serif;}
+body#ff-lucida, #ff-lucida td {font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Lucida, sans-serif;}
+body#ff-georgia, #ff-georgia td {font-family: Georgia, sans-serif;}
+body#ff-trebuchet, #ff-trebuchet td {font-family: "Trebuchet MS", sans-serif;}
+body#ff-palatino, #ff-palatino td {font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;}
+
+/* Core Styles */
+
+form {margin: 0;padding: 0;}
+body.f-small, body#ff-optima.f-small, body#ff-georgia.f-small {font-size: 11px;}
+body, body.f-default {font-size: 12px;}
+body#ff-optima, body#ff-optima.f-default {font-size: 13px;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 13px;}
+body.f-large, body#ff-optima.f-large, body#ff-georgia.f-large {font-size: 14px;}
+p {margin-top: 10px;margin-bottom: 15px;}
+blockquote p { margin-top: -21px;}
+h1, h2, h3, h4, h5 {padding-bottom: 5px;margin: 25px 0 10px 0;font-weight: normal;line-height: 120%;}
+h1 {font-size: 200%;line-height: 100%;}
+h2 {font-size: 175%;line-height: 100%;}
+h3 {font-size: 150%;}
+h4 {font-size: 120%;}
+h5 {font-size: 120%;text-transform: uppercase;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+/* @end */
+
+/* @group Joomla Elements */
+
+div.mosimage_caption {font-size: 95%;}
+.componentheading {font-size: 180%;line-height: 120%;font-weight: bold;padding: 0 0 0 5px;margin: 0 0 20px 0;}
+.contentheading {font-size: 140%;font-weight: bold;line-height: 120%;padding: 0 0 15px 0;border: 0;text-transform: uppercase;padding-left: 23px;}
+span.small, td.createdate, td.modifydate {text-transform: uppercase;color: #666;font-size: 80%;}
+table.blog td.createdate {padding-bottom: 5px;}
+table.blog td.modifydate {padding-top: 10px;}
+td.buttonheading, .contentpaneopen td.buttonheading {padding: 0 1px;border: 0;}
+td.column_separator {padding-left: 15px;}
+td.componentheading {padding-bottom: 15px;}
+.sectiontableheader {font-weight: bold;padding: 4px;line-height: 20px;}
+tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry1, td.sectiontableentry2 {text-align: left;padding: 2px 0 0px 5px;border-bottom: 1px solid #f1f1f1;}
+tr.sectiontableentry2 td, td.sectiontableentry2 {height: 27px;}
+tr.sectiontableentry1 td, td.sectiontableentry1 {height: 27px;background: #f7f7f7;}
+.contentpane, .contentpaneopen {width: 100%;}
+.main-column-right tr.sectiontableentry1 td, .main-column-right tr.sectiontableentry2 td, .main-column-right td.sectiontableentry1, .main-column-right td.sectiontableentry2, .main-column-left tr.sectiontableentry1 td, .main-column-left tr.sectiontableentry2 td, .main-column-left td.sectiontableentry1, .main-column-left td.sectiontableentry2 {border-bottom: none;}
+
+/* @end */
+
+/* @group Structure */
+
+#header {
+	position: relative;
+}
+
+#header .padding {
+	padding: 0 0 15px 0
+}
+
+#top-banner .moduletable {
+	padding: 15px 0 15px 0;
+	margin: 0;
+}
+
+#top-banner .moduletable h3, #advert .moduletable h3 {display: none;}
+
+#topmod {
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 500px;
+	position: relative;
+}
+
+#topmod .moduletable {
+	margin: 0;
+	padding: 0;
+}
+
+#topmod .moduletable h3 {
+	position: absolute;
+	z-index: 100;
+	font-size: 120%;
+	top: 10px;
+	left: 120px;
+	font-weight: normal;
+}
+
+#section-one {padding-bottom: 5px;}
+
+.showcase {margin: 0 12px;padding: 0;}
+
+.showcase a {color: #fff;}
+
+.showcase-bottom3 {height: 6px;}
+.showcase-top, .showcase-top2, .showcase-top3 {height: 6px;}
+
+#main-column-header .moduletable {
+	padding: 10px;
+}
+
+#main-column-header2 .moduletable {
+	margin-bottom: 0;
+	padding: 10px 10px 20px 10px;
+	color: #ccc;
+}
+
+#main-column-header2 a {
+	color: #fff;
+}
+
+#section-two .column2 {
+	float: right;
+	width: 380px;
+}
+
+#section-two .column1 .padding,
+#section-two .column2 .padding {
+	padding: 0 20px 18px 0;
+}
+
+#section-two .column1 .padding {
+	padding-left: 20px;
+}
+
+#section-two .top {
+	padding: 18px 0 0 0;
+}
+
+#section-two-main {
+	padding: 10px 10px 20px 10px;
+}
+
+#section-two .main-column-right {
+	float: right;
+}
+
+.rightmod-top3 {
+	height: 25px;
+}
+
+.rightmod-bottom3 {
+	height: 18px;
+}
+
+.leftmod-top3 {
+	height: 25px;
+}
+
+.leftmod-bottom3 {
+	height: 18px;
+}
+
+.main-column-right .moduletable, .main-column-left .moduletable, .module-menu {
+	padding: 0 20px 20px 20px;
+	margin-bottom: 0;
+}
+
+.moduletable-sidemenu {
+	padding: 0 7px 30px 7px;
+}
+
+.main-column-right .moduletable h3, .main-column-left .moduletable h3, .module-menu h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-left: 23px;
+	font-size: 140%;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.moduletable-sidemenu h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-left: 23px;
+	font-size: 140%;
+	margin-bottom: 10px;
+	margin-top: 0;
+	margin-left: 12px;
+}
+
+#section-two .main-column-right .padding {
+	padding: 0 0 10px 7px;
+}
+
+#section-two .main-column-left {
+	float: left;
+}
+
+#section-two .main-column-left .padding {
+	padding: 0 7px 10px 0;
+}
+
+.main-column-right ul, .main-column-left ul {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.main-column-header1 {
+	padding: 4px;
+	margin-bottom: 10px;
+	position:  relative;
+	overflow: hidden;
+}
+
+.main-column-header2 {
+	overflow: hidden;
+}
+
+.main-content-arrow {
+	height: 7px;
+	width: 24px;
+	position: absolute;
+	margin-left: 50px;
+}
+
+#main-content2 .padding {
+	padding: 25px 15px 10px 15px;
+}
+
+#inset {
+	float: right;
+}
+
+#inset .padding {
+	padding: 25px 15px 0 15px;
+}
+
+#inset .moduletable {
+	padding: 0 0 15px 0;
+}
+
+#inset .moduletable h3 {
+	margin-top: 0;
+	font-weight: normal;
+}
+
+#newsflash .padding, #advert-bottom .padding {
+	padding: 25px 15px 25px 15px;
+}
+
+#newsflash .moduletable h3, #advert-bottom .moduletable h3 {
+	margin-top: 0;
+	font-size: 190%;
+}
+
+#section-three-top {
+	height: 21px;
+	margin-top: -6px;
+}
+
+#section-three-bottom {
+	height: 21px;
+}
+
+#section-three .module h3, #section-three .module-banner h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-left: 23px;
+	margin-top: 0;
+}
+
+#section-four {
+	padding-bottom: 10px;
+}
+
+#section-four .module h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-left: 23px;
+	margin-top: 0;
+}
+
+#section-four .module-accent h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-left: 23px;
+	top: 0;
+	left: 15px;
+	width: 180px;
+	position: absolute;
+}
+
+#section-four .module-accent {
+	width: 229px;
+	height: 298px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#section-four .module-accent div div div {
+	padding: 80px 15px 0px 15px;
+	margin: 0;
+}
+
+#section-three .module, #section-three .module-banner, #section-four .module {
+	margin-bottom: 20px;
+}
+
+#section-five2 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#section-five .module {
+	margin-bottom: 20px;
+}
+
+#section-five .module h3, #footer-mod .moduletable h3 {
+	text-transform: uppercase;
+	font-size: 125%;
+	margin-top: 0;
+}
+
+#advert {
+	display: block;
+	position: relative;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+#advert ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#advert li {
+	float: left;
+	padding-right: 30px;
+	margin: 0;
+	font-size: 160%;
+	line-height: 15px;
+}
+
+#advert li a {
+	padding-left: 15px;
+}
+
+#advert li a:hover {
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+.logo-module {
+	height: 100px;
+	padding: 10px 5px 5px 10px;
+	width: 500px;
+	float: left;
+}
+
+.logo-module .moduletable h3 {display: none;}
+
+img#logo {
+	width: 315px;
+	height: 75px;
+	float: left;
+	margin-top: 25px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+}
+
+.padding {padding: 5px;}
+
+#bottom-menu {
+	height: 53px;
+}
+
+#bottom-menu .moduletable {
+	margin: 0;
+	padding: 0;
+}
+
+img#rocket {
+	width: 165px;
+	height: 22px;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+.debug {margin-top: 20px;}
+
+#searchmod {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	float: right;
+	padding-top: 3px;
+}
+
+#searchmod .inputbox {
+	width: 274px;
+	height: 20px;
+	padding: 4px;
+	font-size: 110%;
+	margin: 0;
+	float: left;
+	border: 0;
+}
+
+#searchmod input.button {
+	width: 44px;
+	height: 29px;
+	line-height: 29px;
+	border: 0;
+	padding: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+#searchmod .moduletable h3 {display: none;}
+table.mainbody, table.blog {width: 100%;}
+.spacer .block {float: left;}
+.spacer.w99 .block {width: 99.8%;}
+.spacer.w49 .block {width: 49.8%;}
+.spacer.w33 .block {width: 33.3%;}
+#bottommodules2.spacer.w33 .block {width: 33.1%;}
+.spacer.w24 .block {width: 24.8%;}
+
+.copyright {
+	display: block;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.copyright p {padding: 4px 0 0 0;margin: 0;}
+
+/* @end */
+
+/* @group Modules */
+
+.moduletable h3 {
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.moduletable {margin-bottom: 10px;}
+
+#mainmodules .module h3 {
+	margin-top: 0;
+	margin-bottom: 12px;
+	padding-bottom: 0;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#mainmodules .module {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.moduletable-flush {
+	margin: 0;
+	padding: 0;
+}
+
+#mainmodules .module div div div, #s3modules .module div div div, #s4modules .module div div div, #s5modules .module div div div, #footer-mod .module {
+	padding: 12px;
+}
+
+#s4modules .module div div div div {
+	padding: 0;
+	margin: 0;
+}
+
+.module-ad h3 {
+	margin: 0 0 4px 0;
+	padding: 0 0 0 2px;
+	text-transform: uppercase;
+	font-size: 80%;
+	letter-spacing: 1px;
+}
+
+.module-ad {padding: 0;margin: 0 0 20px 0;}
+
+#s3modules .module-banner {
+	width: 282px;
+	height: 167px;
+	margin: 0 0 10px 20px;
+	padding-top: 15px;
+	position: relative;
+}
+
+#s3modules .module-banner div div div {
+	padding: 33px 12px 12px 51px;
+	overflow: hidden;
+}
+
+#s3modules .module-banner h3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#mainmodules, #s3modules, #s4modules, #s5modules {
+	overflow: hidden;
+}
+
+/* @end */
+
+/* @group Horizontal Menu */
+
+.menu-surround {
+	padding: 0 5px;
+}
+
+#horiz-menu {
+	height: 32px;
+	display: block;
+	font-family: Georgia, Geneva, Tahoma;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	z-index: 100;
+	position: relative;
+}
+
+ul#horiznav.menutop, #horiz-menu ul.menutop {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#horiz-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#horiz-menu li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#horiz-menu a,
+#horiz-menu .separator {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 12px 0 12px;
+	font-weight: normal;
+	font-size: 120%;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 100;
+	margin-left: -1px;
+}
+
+#horiz-menu li.active a,
+#horiz-menu li.active .separator {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	height: 43px;
+	line-height: 34px;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 120%;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 100;
+	cursor: pointer;
+}
+
+#horiz-menu li.active {
+	margin-top: -1px;
+	margin-left: -1px;
+	position: relative;
+	z-index: 100;
+}
+
+#horiz-menu li.active span {
+	height: 43px;
+	line-height: 34px;
+	padding: 0 12px 0 12px;
+	display: block;
+	z-index: 100;
+}
+
+#horiz-menu li.active li span {
+	padding: 0;
+	line-height: 30px;
+	height: 30px;
+}
+
+#horiz-menu li.active li a, #horiz-menu li.active.parent li a, #horiz-menu li.active li .separator, #horiz-menu li.active.parent li .separator {font-weight: normal;font-size: 100%;}
+
+#horiz-menu ul ul {margin: 0;padding: 0;}
+
+#horiz-menu ul li.active ul {margin-top: -2px;}
+
+#horiz-menu ul li.active ul ul, #horiz-menu ul li ul ul {margin-top: -1px;}
+
+#horiz-menu ul ul li a, #horiz-menu ul li.active.parent ul a, #horiz-menu ul li.active.parent ul a span, #horiz-menu ul ul li .separator, #horiz-menu ul li.active.parent ul .separator, #horiz-menu ul li.active.parent ul .separator span {
+	text-transform: none;
+	background: none;
+}
+
+/* mouseovers */
+
+#horiz-menu li li.active, #horiz-menu li.active li a, #horiz-menu li.active li a:hover, #horiz-menu li li a:hover, #horiz-menu ul li.active.parent ul a, #horiz-menu li.active li .separator, #horiz-menu li.active li .separator:hover, #horiz-menu li li .separator:hover, #horiz-menu ul li.active.parent ul .separator {background: none;}
+
+#horiz-menu li li a,
+#horiz-menu li li .separator {
+	font-size: 100%;
+	font-weight: normal;
+	background: none;
+}
+
+#sub-menu {
+	height: 30px;
+	clear: both;
+	position: relative;
+	z-index: 1;
+}
+
+#sub-bar {
+	height: 10px;
+	position: relative;
+	z-index: 1;
+	margin: 0 5px;
+}
+
+#sub-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sub-menu li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#sub-menu a, #sub-menu li.active a {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 12px 0 10px;
+	margin: 0;
+	font-weight: bold;
+	font-size: 100%;
+	overflow: hidden;
+	text-decoration: none;
+	z-index: 100;
+	text-indent: 0;
+	background: none;
+}
+
+/* bottom menu */
+
+#bottom-menu ul#mainlevel-bottom {padding: 0;margin: 0;}
+#bottom-menu #mainlevel-bottom ul {list-style: none;}
+
+#bottom-menu #mainlevel-bottom li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#bottom-menu #mainlevel-bottom a, #bottom-menu #mainlevel-bottom a#active_menu.mainlevel {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	height: 52px;
+	line-height: 52px;
+	padding: 0 15px 0 15px;
+	font-weight: normal;
+	font-size: 120%;
+	letter-spacing: 1px;
+	font-weight: normal;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* @end */
+
+/* @group Sub Menu */
+
+a.mainlevel:hover, a.sublevel:hover {text-decoration: none;}
+ul.menu {margin:0;padding: 0;}
+ul.menu li {list-style: none;margin: 0;padding: 0;float: none;}
+ul.menu span {display: block;height: 26px;}
+.moduletable-sidemenu a.mainlevel {margin: 0 0 1px 0;}
+ul.menu a, ul.menu li.active a, a.mainlevel {display: block;margin-left: -14px;margin-right: -14px;margin-bottom: 1px;line-height: 26px;text-indent: 30px;height: 26px;overflow: hidden;font-size: 120%;float: none;padding: 2px 0;}
+a.sublevel {padding-left: 0;margin-left: 0;height: 26px;line-height: 26px;}
+ul.menu li.active a, ul.menu li.active li.active a, a#active_menu.mainlevel, a#active_menu.sublevel {font-weight: bold;}
+ul.menu li.active li a, ul.menu li.active li.active li a {font-weight: normal;}
+ul.menu ul {margin: 4px 0;}
+ul.menu ul li a {text-indent: 10px;}
+ul.menu ul a {background: none; text-indent: 0;}
+ul.menu ul {margin: 5px -14px; padding: 10px 0 10px 30px;}
+ul.menu ul ul {padding-left: 18px; margin:0; background: none;}
+ul.menu li li {padding: 0;margin: 0;}
+ul.menu ul a {text-indent: 0;}
+ul.menu li.active a, ul.menu li.active a:hover {text-decoration: none; line-height: 24px;}
+ul.menu li a:hover {text-decoration: none;}
+ul.menu li.active ul {margin-top: 0;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;}
+ul.menu li.active.parent ul {
+	margin-bottom: 1px;
+}
+
+/* @end */
+
+/* Extra Content Styles */
+
+.main-column-right a.readon2, .main-column-left a.readon2, #section-three a.readon2 {margin-top: 16px;text-transform: uppercase;padding: 0;display: block;width: 48px;line-height: 12px;}
+a.readon {margin-top: 16px;text-transform: uppercase;padding: 0;display: block;line-height: 12px;}
+
+#pathway {width: 100%;display: block;height: 50px;}
+span.pathway {display: block;line-height: 220%;font-weight: normal;height: 22px;line-height: 22px;overflow: hidden;margin-bottom: 15px;padding-left: 15px;padding-top: 15px;}
+span.pathway img {padding-right: 0;width: 0;}
+span.pathway a {float: none;padding: 0 6px 0 0;}
+
+a.nounder {text-decoration: none;border: 0;cursor: pointer;}
+a.nounder:hover {text-decoration: none;}
+.clr {clear:both;}
+fieldset {border-left: 0;border-right: 0;border-top: 0;border-bottom: 1px solid #ddd;}
+fieldset.input, a img, body .pollstableborder {border: 0;}
+img.content-left {float: left;margin-right: 10px;padding: 5px;}
+img.content-right {float: right;margin-left: 10px;padding: 5px;}
+#referencewidth {width: 100%;overflow:hidden;}
+.back_button {margin-top: 20px;margin-bottom: 10px;}
+
+/* Signal Login */
+
+#sl_vert {position: relative;overflow: hidden;width: 395px;height: 100px;margin: 0;padding: 0;float: right;}
+#sl_vert #greeting {width: 70%;margin-top: 40px;margin-left: 15px;}
+#sl_username {height: 25px;padding-bottom: 4px;margin-bottom: 5px;}
+#sl_vert #sl_username input#mod_login_username {width: 150px;float: right;margin-right: 80px;margin-top: 10px;}
+#sl_pass {height: 25px;margin: 0;}
+#sl_vert #sl_pass input#mod_login_password {width: 150px;float: right;margin-right: 80px;margin-top: 2px;}
+#sl_submitbutton {position: absolute;top: 10px;right: 15px;font-size: 100%;padding: 0;}
+#sl_vert #sl_username input#mod_login_username, #sl_vert #sl_pass input#mod_login_password, #sl_vert #sl_submitbutton input.button {height: 16px;line-height: 16px;padding: 2px 2px 2px 5px;font-size: 100%;}
+#sl_vert #sl_submitbutton input.button { height: 22px;padding: 0 10px;cursor: pointer;}
+#sl_rememberme {position: absolute;top: 35px;left: 10px;height: 20px;line-height: 20px;}
+#sl_rememberme input {float: left;}
+#sl_lostpass, #sl_register {float: right;margin-right: 14px;height: 20px;line-height: 20px;margin-top: 4px;font-size: 90%;}
+
+/* RokNewsRotator */
+
+#news-rotator{position:relative;z-index:1;height:290px;overflow:hidden;padding: 0;margin: 0;}
+#news-rotator .image{position:relative;float:left;margin-top:3px;height:290px;z-index:100;overflow:hidden;display:block;width: 488px;}
+#news-rotator .image div {padding: 0;margin: 0;}
+#news-rotator .story{display:block;position:relative;z-index:2;height:290px;margin-left: 500px;font-weight: normal;/* image width + 12px */}
+#news-rotator .story p{font-size: 150%;line-height:130%;}
+#news-rotator h1 {color:#fff;margin-top:8px;font-size: 170%;}
+#news-rotator h1 a {color:#fff;}
+#news-rotator .story .padding{padding:40px 25px 40px 30px;top:0;overflow:hidden;}
+#news-rotator .controls{position:absolute;bottom:15px;right:15px;z-index:5;}
+#news-rotator .controls img{height:15px;width:15px;cursor:pointer;margin-right:3px;}
+#news-rotator .control-prev{background-position:0 0;}
+#news-rotator .control-next{background-position:0 -17px;}
+#news-rotator .control-stop{background-position:0 -34px;}
+#news-rotator .control-play{background-position:0 -51px;}
+
+/* Demo Stuff */
+
+span.large {font-size: 130%;line-height: 149%;}
+div.promo {position: relative;overflow: hidden;margin: 0;padding: 0;height: 271px;}
+span.promo-title {position: absolute;top: 190px;left: 118px;font-size: 170%;font-family: Georgia, serif;}
+span.promo-desc {position: absolute;top: 214px;left: 118px;padding-right: 50px;}
+span.highlighted-work {padding: 0 14px 0 14px;display: block;}
+div.shield {padding: 0 0 15px 60px !important;position: relative;display: block;margin-bottom: 15px !important;margin-top: 20px !important;}
+span.shield-month {color: #fff;text-transform: uppercase;position: absolute;top: 10px;left: 12px;}
+span.shield-date {color: #333;text-transform: uppercase;position: absolute;top: 30px;left: 12px;font-size: 180%;font-weight: bold;font-family: Georgia, serif;display: block;padding-bottom: 10px;}
+img.demogallery {margin: 0 10px 10px 0;float: left;}
+img.demogallery-last {margin: 0 0 10px 0;float: left;}
